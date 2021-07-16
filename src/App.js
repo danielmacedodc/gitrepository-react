@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';   <h1>{props.title} {props.user}</h1>
+import React from 'react';
+import Routes from './routes';
+
+import './style.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes />
   );
 }
 
 export default App;
+
+
+//[ usuario, setUsuario ] 
+// <p>{usuario}</p>
+// const [usuario, setUsuario] = useState('');
+//name="Usuário" id="usuario" 
