@@ -1,1 +1,1 @@
-# App React to find users repositories on Github
+# App React to find users repositories on GitHub
